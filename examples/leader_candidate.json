@@ -1,0 +1,53 @@
+{
+  "fact_nodes": [
+    {
+      "context": {"scope_key": "SHIPMENT", "assertion_mode": "UNQUALIFIED", "record_status": "UNSPECIFIED"},
+      "fact_type": "CONTAINER_NUMBER",
+      "normalized_value": "MSCU1234567",
+      "display_value": "MSCU1234567",
+      "supports": [
+        {"document_id": "BL-041", "evidence_excerpt": "Container MSCU1234567"},
+        {"document_id": "ARRIVAL-041", "evidence_excerpt": "container MSCU1234567"}
+      ]
+    },
+    {
+      "context": {"scope_key": "SHIPMENT", "assertion_mode": "UNQUALIFIED", "record_status": "UNSPECIFIED"},
+      "fact_type": "VESSEL_NAME",
+      "normalized_value": "MV North Star",
+      "display_value": "MV North Star",
+      "supports": [
+        {"document_id": "BL-041", "evidence_excerpt": "Vessel: MV North Star"},
+        {"document_id": "ARRIVAL-041", "evidence_excerpt": "aboard MV North Star"}
+      ]
+    },
+    {
+      "context": {"scope_key": "SHIPMENT", "assertion_mode": "UNQUALIFIED", "record_status": "UNSPECIFIED"},
+      "fact_type": "DISCHARGE_PORT",
+      "normalized_value": "Lagos, Nigeria",
+      "display_value": "Lagos, Nigeria",
+      "supports": [
+        {"document_id": "BL-041", "evidence_excerpt": "Port of discharge: Lagos, Nigeria"},
+        {"document_id": "ARRIVAL-041", "evidence_excerpt": "Discharge location: Lagos, Nigeria"}
+      ]
+    },
+    {
+      "context": {"scope_key": "SHIPMENT", "assertion_mode": "ESTIMATED", "record_status": "SUPERSEDED"},
+      "fact_type": "ARRIVAL_DATE",
+      "normalized_value": "2026-09-18",
+      "display_value": "2026-09-18",
+      "supports": [
+        {"document_id": "BL-041", "evidence_excerpt": "Estimated arrival: 2026-09-18"}
+      ]
+    },
+    {
+      "context": {"scope_key": "SHIPMENT", "assertion_mode": "ESTIMATED", "record_status": "CURRENT"},
+      "fact_type": "ARRIVAL_DATE",
+      "normalized_value": "2026-09-20",
+      "display_value": "2026-09-20",
+      "supports": [
+        {"document_id": "ARRIVAL-041", "evidence_excerpt": "Revised estimated arrival: 2026-09-20"}
+      ]
+    }
+  ],
+  "unresolved_fact_types": []
+}

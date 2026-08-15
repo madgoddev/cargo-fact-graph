@@ -1,0 +1,190 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "create_graph": {
+      "params": [
+        [
+          "bundle_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "derive_bundle_identity": {
+      "params": [
+        [
+          "bundle_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_contradictions_page": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ],
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_document_manifest": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_document_reviews": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_fact_nodes_page": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ],
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_facts_by_type": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ],
+        [
+          "fact_type",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_graph_header": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_graph_payload": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_support_edges_page": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ],
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_unresolved_fact_types": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "has_graph": {
+      "params": [
+        [
+          "graph_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "bool"
+    },
+    "list_graph_ids": {
+      "params": [
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    }
+  }
+}

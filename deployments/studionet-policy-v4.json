@@ -1,0 +1,70 @@
+{
+  "evidenceSchema": "cargofactgraph/deployment-evidence/v2",
+  "networkAlias": "studionet",
+  "networkName": "Genlayer Studio Network",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "explorerBaseUrl": "https://genlayer-explorer.vercel.app",
+  "cliVersion": "0.39.2",
+  "deployerAddress": "0xf6977164ae9efe2c4eed79b1d9bbd38e2e6b4331",
+  "contractAddress": "0x4A97b761B4BecbCcAF16C441a15B35E8f2a4d8Da",
+  "deploymentTransactionHash": "0xadedd6c36abb43775054ef9330c16d98e79f8d8129682513d898c0ffc744df89",
+  "deploymentSubmittedAtUtc": "2026-08-12T17:32:15.810Z",
+  "deployedAtUtc": "2026-08-12T17:32:17.587147Z",
+  "deploymentLifecycleStatus": "FINALIZED",
+  "deploymentConsensusResult": "MAJORITY_AGREE",
+  "deploymentExecutionResult": "SUCCESS",
+  "deploymentValidatorVotes": {
+    "agree": 5,
+    "disagree": 0,
+    "idle": 0
+  },
+  "contractSourceSha256": "B6303AC060FF45DAE4C10208DA48E1CE1950D915FB919CDFCE9FB09AEEC8F4FD",
+  "deployedSourceSha256": "B6303AC060FF45DAE4C10208DA48E1CE1950D915FB919CDFCE9FB09AEEC8F4FD",
+  "deployedSourceBytes": 46041,
+  "deployedSourceMatchesLocal": true,
+  "genvmDependency": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": {
+    "publicMethodCount": 14,
+    "viewMethodCount": 13,
+    "writeMethodCount": 1,
+    "constructorParameterCount": 0,
+    "abiSha256": "31CD77F8469FBA83BF8AA7B5EA3CA689A44DFBAFD856AD1FC98896094D182794",
+    "deployedSchemaMatchesLocal": true
+  },
+  "protocolRead": {
+    "protocolVersion": "CARGO_FACT_GRAPH/4",
+    "compilationPolicyVersion": "CARGO_FACT_RECONCILIATION/4",
+    "validatorAuditSchema": "CARGO_FACT_VALIDATOR_AUDIT/4",
+    "maximumFactKeyCharacters": 420,
+    "storedNarrativePolicy": "DETERMINISTIC_CONTRACT_TEMPLATES",
+    "zeroStateVerifiedBeforeSmoke": true
+  },
+  "smokeTest": {
+    "fixture": "examples/reconciliation_bundle.json",
+    "fixtureFileSha256": "9447D97FDCD563C310D88AFC0E8A59D8FC413301AA5538889A646EBC91F72BB3",
+    "transactionHash": "0x513241ebe3457595afad7d9ad4d1b70a4739a7fa1edc90a28d65fb97ac786ace",
+    "submittedAtUtc": "2026-08-12T17:35:13.198Z",
+    "createdAtUtc": "2026-08-12T17:35:14.436286Z",
+    "lifecycleStatus": "FINALIZED",
+    "consensusResult": "MAJORITY_AGREE",
+    "executionResult": "SUCCESS",
+    "validatorVotes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    "returnedGraphId": "cfg4:4559d69da203fa35fbf64a3ec479b259de14122fe28cf18a1f7771c751ad94c6",
+    "graphContentId": "sha256:e7e9c3681a27c9a5b7acb804406c923657f5eaafd2b42cbe1a905c6c03d5acc4",
+    "bundleContentId": "sha256:02cd89465d07b2c4cda57163700e51c3e198c61c338b8314a9064f1232b37aa5",
+    "documentCount": 2,
+    "factNodeCount": 5,
+    "supportEdgeCount": 8,
+    "contradictionCount": 0,
+    "unresolvedFactTypeCount": 0,
+    "catalogCountAfterRead": 1,
+    "revisionSemanticsVerified": true,
+    "readbackVerified": true
+  },
+  "verifiedAtUtc": "2026-08-12T17:36:27Z"
+}

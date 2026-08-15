@@ -1,0 +1,23 @@
+{
+  "shipment_reference": "DEMO-SHIPMENT-2026-041",
+  "requested_fact_types": [
+    "CONTAINER_NUMBER",
+    "VESSEL_NAME",
+    "ARRIVAL_DATE",
+    "DISCHARGE_PORT"
+  ],
+  "documents": [
+    {
+      "document_id": "BL-041",
+      "document_type": "BILL_OF_LADING",
+      "provenance_label": "Caller says this plaintext came from the public carrier bill-of-lading record",
+      "content": "Bill of lading BL-041. Container MSCU1234567. Vessel: MV North Star. Port of discharge: Lagos, Nigeria. Estimated arrival: 2026-09-18."
+    },
+    {
+      "document_id": "ARRIVAL-041",
+      "document_type": "ARRIVAL_NOTICE",
+      "provenance_label": "Caller says this plaintext came from the public terminal arrival notice",
+      "content": "Arrival notice for container MSCU1234567 aboard MV North Star. Discharge location: Lagos, Nigeria. Revised estimated arrival: 2026-09-20."
+    }
+  ]
+}

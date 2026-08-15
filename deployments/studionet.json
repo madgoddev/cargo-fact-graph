@@ -1,0 +1,63 @@
+{
+  "evidenceSchema": "cargofactgraph/deployment-evidence/v5",
+  "networkAlias": "studionet",
+  "networkName": "Genlayer Studio Network",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "contractAddress": "0x6625924474019de15B93EF485F38E6bb81A6DF2C",
+  "deploymentTransactionHash": "0x72d9d9afe16b93d52524dd30bda4f394ac2da0eb1693e3f706bc313dc35feeab",
+  "deployedAtUtc": "2026-08-12T19:18:10.161732Z",
+  "deploymentLifecycleStatus": "FINALIZED",
+  "deploymentConsensusResult": "MAJORITY_AGREE",
+  "deploymentExecutionResult": "SUCCESS",
+  "deploymentValidatorVotes": {
+    "agree": 3,
+    "disagree": 0,
+    "idle": 2
+  },
+  "contractSourceSha256": "95CF918C045114337D05F652C586BB9FB77A770F6D342FBBD51964C37A25450A",
+  "deployedSourceSha256": "95CF918C045114337D05F652C586BB9FB77A770F6D342FBBD51964C37A25450A",
+  "deployedSourceBytes": 42460,
+  "deployedSourceMatchesLocal": true,
+  "genvmDependency": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": {
+    "publicMethodCount": 14,
+    "viewMethodCount": 13,
+    "writeMethodCount": 1,
+    "constructorParameterCount": 0,
+    "abiSha256": "31CD77F8469FBA83BF8AA7B5EA3CA689A44DFBAFD856AD1FC98896094D182794",
+    "deployedSchemaMatchesLocal": true
+  },
+  "protocolRead": {
+    "protocolVersion": "CARGO_FACT_GRAPH/5",
+    "compilationPolicyVersion": "CARGO_FACT_RECONCILIATION/5",
+    "validatorAuditSchema": "CARGO_FACT_VALIDATOR_AUDIT/5",
+    "maximumFactKeyCharacters": 420
+  },
+  "smokeTest": {
+    "fixture": "examples/reconciliation_bundle.json",
+    "fixtureFileSha256": "9447D97FDCD563C310D88AFC0E8A59D8FC413301AA5538889A646EBC91F72BB3",
+    "transactionHash": "0x3600d494f55ac6c84f863964b98647395a837cc318bf43b20946c2e8d010cb5c",
+    "createdAtUtc": "2026-08-12T19:39:17.996860Z",
+    "lifecycleStatus": "FINALIZED",
+    "consensusResult": "MAJORITY_AGREE",
+    "executionResult": "SUCCESS",
+    "validatorVotes": {
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    "returnedGraphId": "cfg5:27fdc4f4c09f19b4556b0f619285e105f4f28db2f9f69d79dbffd7bde63406ed",
+    "bundleContentId": "sha256:02cd89465d07b2c4cda57163700e51c3e198c61c338b8314a9064f1232b37aa5",
+    "documentCount": 2,
+    "factNodeCount": 5,
+    "supportEdgeCount": 8,
+    "contradictionCount": 0,
+    "unresolvedFactTypeCount": 0,
+    "catalogCountAfterRead": 1,
+    "revisionSemanticsVerified": true,
+    "readbackVerified": true
+  },
+  "deploymentVerificationPassed": true,
+  "semanticWriteVerificationPassed": true
+}

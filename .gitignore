@@ -1,0 +1,8 @@
+.env
+.glsim/
+.gltest_artifacts/
+.pytest_cache/
+.venv/
+__pycache__/
+*.py[cod]
+deploy/*.compiled.js
